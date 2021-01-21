@@ -1,5 +1,5 @@
-import React, {Component} from "react";
-import {BrowserRouter as Router, Link} from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,7 +9,7 @@ class App extends Component {
             <Router>
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <Link to="/" className="navbar-brand">Mern Easy Boilerplate</Link>
+                        <Link to="/" className="navbar-brand">Tucker's MERN Stack</Link>
                         <div className="collpase navbar-collapse">
                             <ul className="navbar-nav mr-auto">
                                 <li className="navbar-item">
@@ -21,7 +21,7 @@ class App extends Component {
                             </ul>
                         </div>
                     </nav>
-                    <br/>
+                    <br />
                 </div>
             </Router>
         );
